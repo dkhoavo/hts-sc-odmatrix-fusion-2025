@@ -1,0 +1,30 @@
+name: od-sim-pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+
+  # Plotting
+  - matplotlib
+
+  # Notebook runtime
+  - jupyterlab
+  - ipykernel
+
+  # Optional quality-of-life
+  - tqdm
+
+  # Machine learning
+  - xgboost
+
+  # Geospatial stack (used in case-study notebooks)
+  - geopandas
+  - shapely
+  - pyproj
