@@ -12,7 +12,9 @@ clearly distinguish between:
 
 - `sim_notebooks/`  
   Core simulation workflow, including data preparation, OD inference, and
-  model selection.
+  model selection. Due to the size and access restrictions of the HTS microdata, only
+  **origin–destination (OD) information is used in the simulation**, and
+  departure-time information is intentionally excluded.
 
 - `case_study_notebooks/`  
   City-specific notebooks used to generate the Singapore and Seoul results
@@ -20,7 +22,10 @@ clearly distinguish between:
 
 - `od_sim_data/`  
   Simulation input data. Raw household travel survey (HTS) microdata are not
-  publicly distributed due to data access constraints.
+  publicly distributed due to data access constraints.  
+  Due to the size and access restrictions of the HTS microdata, only
+  **origin–destination (OD) information is used in the simulation**, and
+  departure-time information is intentionally excluded.
 
 - `od_sim_result/`  
   Generated simulation outputs, intermediate results, and figures.
