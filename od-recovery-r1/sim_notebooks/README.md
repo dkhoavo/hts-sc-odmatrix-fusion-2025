@@ -24,7 +24,7 @@ required to run the main simulation pipeline.
 
 ---
 
-### Simulation logic (high-level)
+### Simulation logic
 
 Given restricted HTS microdata, the notebook performs the following steps:
 
@@ -55,10 +55,10 @@ Given restricted HTS microdata, the notebook performs the following steps:
 
 6. **Export simulation inputs**
    The following CSV files are generated and saved to `od_sim_data/`:
-   - Destination land-use mixture
+   - Destination land-use mixture and mode share
    - Origin and destination mode priors
    - Smart-card proxy OD data (PT only)
-   - Ground-truth multimodal OD counts
+   - Ground-truth multimodal OD counts (all modes)
 
 7. **HTS subsampling**
    - Generate five independent HTS samples (20% each) to simulate
