@@ -14,7 +14,7 @@ This notebook demonstrates how simulated OD inputs are constructed from
 household travel survey (HTS) microdata.
 
 **Important notice**  
-This notebook requires restricted HTS microdata: data_hts_{reg}.csv (reg ∈ {sgp, seoul})
+This notebook requires restricted HTS microdata: data_hts_{reg}.csv (reg ∈ {seoul})
 
 These files are **not provided** in the GitHub repository due to data access
 and privacy constraints.
