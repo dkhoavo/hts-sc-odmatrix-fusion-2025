@@ -13,7 +13,7 @@ due to privacy and data-sharing agreements. Due to the size and access restricti
 departure-time information is intentionally excluded.
 
 As a result:
-- Files named `data_hts_{reg}.csv` (reg ∈ {sgp, seoul}) are **not included**
+- Files named `data_hts_{reg}.csv` (reg ∈ {seoul}) are **not included**
 - Notebook `00_prepare_sim_data.ipynb` is provided for transparency only
 
 ---
